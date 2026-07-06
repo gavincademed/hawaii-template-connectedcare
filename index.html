@@ -286,7 +286,7 @@ font-family:var(--sa);background:var(--bg);color:var(--d);position:relative;box-
 
 /* Per-patient scenarios table (slide 07) */
 .mp .cp-scen{background:#fff;border:1px solid rgba(0,0,0,.06);border-radius:14px;padding:20px 24px;display:flex;flex-direction:column;gap:2px}
-.mp .cp-scen-row{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:12px;padding:11px 0;align-items:center;border-bottom:1px solid rgba(0,0,0,.04);font-family:var(--sa);font-size:13.5px;color:var(--d)}
+.mp .cp-scen-row{display:grid;grid-template-columns:1.6fr 1fr;gap:12px;padding:11px 0;align-items:center;border-bottom:1px solid rgba(0,0,0,.04);font-family:var(--sa);font-size:13.5px;color:var(--d)}
 .mp .cp-scen-row:last-child{border-bottom:none}
 .mp .cp-scen-row.cp-scen-head{font-family:var(--mo);font-size:10px;font-weight:600;color:var(--lg);letter-spacing:1.3px;text-transform:uppercase;padding-bottom:8px}
 .mp .cp-scen-row.cp-scen-total{background:var(--cb);margin:8px -16px 0;padding:18px 16px;border-radius:10px;border:1px solid rgba(42,114,176,.28);font-weight:700;font-size:16px}
@@ -296,7 +296,7 @@ font-family:var(--sa);background:var(--bg);color:var(--d);position:relative;box-
 .mp .cp-scen-row .num{font-family:var(--mo);text-align:right;font-variant-numeric:tabular-nums;font-weight:500}
 .mp .cp-scen-row .num.fee{color:var(--c)}
 .mp .cp-scen-row.cp-scen-total .num.fee{color:var(--c)}
-@media (max-width:767px){.mp .cp-scen-row{grid-template-columns:1.4fr 1fr 1fr;font-size:12px;gap:8px}}
+@media (max-width:767px){.mp .cp-scen-row{grid-template-columns:1.4fr 1fr;font-size:12px;gap:8px}}
 
 /* CADE Pricing table */
 .mp .cp-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
@@ -305,14 +305,13 @@ font-family:var(--sa);background:var(--bg);color:var(--d);position:relative;box-
 .mp .cp-prog-code{font-family:var(--mo);font-size:14px;font-weight:600;color:var(--c);letter-spacing:1.8px}
 .mp .cp-prog-name{font-family:var(--se);font-style:italic;font-weight:400;font-size:16px;color:var(--d)}
 .mp .cp-table{display:flex;flex-direction:column;gap:2px}
-.mp .cp-row{display:grid;grid-template-columns:58px 1fr 60px 60px 60px;gap:8px;align-items:center;padding:7px 0;font-family:var(--sa);font-size:12px;color:var(--gy)}
+.mp .cp-row{display:grid;grid-template-columns:58px 1fr 60px 60px;gap:8px;align-items:center;padding:7px 0;font-family:var(--sa);font-size:12px;color:var(--gy)}
 .mp .cp-row.cp-head{font-family:var(--mo);font-size:9.5px;color:var(--lg);font-weight:600;letter-spacing:1.2px;text-transform:uppercase;padding-bottom:8px;border-bottom:1px solid rgba(0,0,0,.04);margin-bottom:2px}
 .mp .cp-c1{font-family:var(--mo);font-size:11px;font-weight:500;color:var(--d)}
 .mp .cp-c2{font-family:var(--sa);font-size:12px;color:var(--gy);line-height:1.35}
-.mp .cp-c3,.mp .cp-c4,.mp .cp-c5{font-family:var(--mo);font-size:11.5px;text-align:right;font-variant-numeric:tabular-nums;font-weight:500}
+.mp .cp-c3,.mp .cp-c4{font-family:var(--mo);font-size:11.5px;text-align:right;font-variant-numeric:tabular-nums;font-weight:500}
 .mp .cp-c3{color:var(--lg);font-style:italic}
 .mp .cp-c4{color:var(--d)}
-.mp .cp-c5{color:var(--c);font-weight:600}
 .mp .cp-foot{margin-top:18px;font-family:var(--sa);font-size:11.5px;color:var(--lg);font-style:italic;line-height:1.5;max-width:780px}
 .mp .cp-callouts{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:600px;margin-bottom:8px}
 .mp .cp-call{background:#fff;border:1px solid rgba(0,0,0,.06);border-radius:14px;padding:20px 24px}
@@ -322,7 +321,7 @@ font-family:var(--sa);background:var(--bg);color:var(--d);position:relative;box-
 .mp .cp-call-x{font-family:var(--sa);font-style:normal;font-size:.5em;font-weight:500;margin-left:2px;opacity:.85}
 .mp .cp-call-l{font-family:var(--sa);font-size:12.5px;color:var(--gy);line-height:1.5;margin-top:8px}
 @media (max-width:1023px){.mp .cp-grid{grid-template-columns:1fr}}
-@media (max-width:767px){.mp .cp-callouts{grid-template-columns:1fr}.mp .cp-row{grid-template-columns:48px 1fr 50px 50px 50px;font-size:11px;gap:5px}.mp .cp-c2{font-size:10.5px}.mp .cp-c3,.mp .cp-c4,.mp .cp-c5{font-size:10px}}
+@media (max-width:767px){.mp .cp-callouts{grid-template-columns:1fr}.mp .cp-row{grid-template-columns:48px 1fr 50px 50px;font-size:11px;gap:5px}.mp .cp-c2{font-size:10.5px}.mp .cp-c3,.mp .cp-c4{font-size:10px}}
 
 /* Why CADE slide (07) */
 .mp .wc-lead{background:var(--d);border-radius:18px;padding:clamp(30px,4vw,44px) clamp(28px,4vw,48px);margin:8px 0 36px;position:relative;overflow:hidden}
@@ -678,11 +677,10 @@ font-family:var(--sa);background:var(--bg);color:var(--d);position:relative;box-
 }
 @media(max-width:400px){
   .mp .cp-prog{padding:16px 14px}
-  .mp .cp-row{grid-template-columns:40px 1fr 42px 42px 42px;gap:4px}
+  .mp .cp-row{grid-template-columns:40px 1fr 42px 42px;gap:4px}
   .mp .cp-c1{font-size:10px}
   .mp .cp-c2{font-size:10px}
-  .mp .cp-c5{font-size:9.5px}
-}
+  }
 </style>
 
 <div class="blob"></div>
@@ -798,27 +796,27 @@ font-family:var(--sa);background:var(--bg);color:var(--d);position:relative;box-
 </div></section>
 
 <!-- 07 CADE PRICING -->
-<section id="mp-cadeprice" class="sct cbg"><div class="wrap"><div class="r"><span class="num">07</span></div><div class="r" data-d="0.08"><span class="lbl lbl-c">CADE PRICING &middot; FEE-FOR-SERVICE</span></div><div class="r" data-d="0.14"><h2 class="h2">CMS rates up.<br><span class="ac">A clear margin on every code.</span></h2></div><div class="r" data-d="0.2"><div class="cp-callouts"><div class="cp-call"><div class="cp-call-n">+12<span class="cp-call-x">%</span></div><div class="cp-call-l">CMS allowable increase YoY in 2026 &middot; two new RPM codes added</div></div><div class="cp-call hot"><div class="cp-call-n">$160<span class="cp-call-x" style="font-size:.4em">&nbsp;to&nbsp;</span>300</div><div class="cp-call-l">Typical practice revenue per enrolled patient, per month</div></div></div></div>
+<section id="mp-cadeprice" class="sct cbg"><div class="wrap"><div class="r"><span class="num">07</span></div><div class="r" data-d="0.08"><span class="lbl lbl-c">REIMBURSEMENT &middot; FEE-FOR-SERVICE</span></div><div class="r" data-d="0.14"><h2 class="h2">CMS rates up.<br><span class="ac">2026 pays more on every code.</span></h2></div><div class="r" data-d="0.2"><div class="cp-callouts"><div class="cp-call"><div class="cp-call-n">+12<span class="cp-call-x">%</span></div><div class="cp-call-l">CMS allowable increase YoY in 2026 &middot; two new RPM codes added</div></div><div class="cp-call hot"><div class="cp-call-n">$160<span class="cp-call-x" style="font-size:.4em">&nbsp;to&nbsp;</span>300</div><div class="cp-call-l">Typical practice revenue per enrolled patient, per month</div></div></div></div>
 
-<div class="r" data-d="0.26" style="margin-top:8px"><span class="lbl lbl-c" style="margin-bottom:14px;display:block">PER-PATIENT MONTHLY SCENARIOS</span><div class="cp-scen"><div class="cp-scen-row cp-scen-head"><div>Scenario</div><div class="num">Est. Allowable</div><div class="num">CADE Fee</div></div><div class="cp-scen-row"><div class="lab">Avg. RPM Month</div><div class="num">$158</div><div class="num fee">$86</div></div><div class="cp-scen-row"><div class="lab">Avg. CCM Month</div><div class="num">$123</div><div class="num fee">$67</div></div><div class="cp-scen-row"><div class="lab">Avg. RTM Month</div><div class="num">$161</div><div class="num fee">$87</div></div><div class="cp-scen-row"><div class="lab">Avg. PCM Month</div><div class="num">$129</div><div class="num fee">$71</div></div><div class="cp-scen-row cp-scen-total"><div class="lab">Avg. Dual Enrolled (RPM + CCM)</div><div class="num">$281</div><div class="num fee">$153</div></div></div></div>
+<div class="r" data-d="0.26" style="margin-top:8px"><span class="lbl lbl-c" style="margin-bottom:14px;display:block">PER-PATIENT MONTHLY SCENARIOS</span><div class="cp-scen"><div class="cp-scen-row cp-scen-head"><div>Scenario</div><div class="num">Est. Allowable</div></div><div class="cp-scen-row"><div class="lab">Avg. RPM Month</div><div class="num">$158</div></div><div class="cp-scen-row"><div class="lab">Avg. CCM Month</div><div class="num">$123</div></div><div class="cp-scen-row"><div class="lab">Avg. RTM Month</div><div class="num">$161</div></div><div class="cp-scen-row"><div class="lab">Avg. PCM Month</div><div class="num">$129</div></div><div class="cp-scen-row cp-scen-total"><div class="lab">Avg. Dual Enrolled (RPM + CCM)</div><div class="num">$281</div></div></div></div>
 
-<div class="r" data-d="0.36" style="margin-top:30px"><span class="lbl lbl-c" style="margin-bottom:14px;display:block">CODE-BY-CODE &middot; CMS VS CADE FEE</span></div>
+<div class="r" data-d="0.36" style="margin-top:30px"><span class="lbl lbl-c" style="margin-bottom:14px;display:block">CODE-BY-CODE &middot; CMS ALLOWABLES</span></div>
 
 <div class="r" data-d="0.42" style="margin-top:8px"><div class="cp-grid">
 
-<div class="cp-prog"><div class="cp-prog-h"><div class="cp-prog-code">RPM</div><div class="cp-prog-name">Remote Patient Monitoring</div></div><div class="cp-table"><div class="cp-row cp-head"><div class="cp-c1">CPT</div><div class="cp-c2">Description</div><div class="cp-c3">2025</div><div class="cp-c4">2026</div><div class="cp-c5">CADE</div></div><div class="cp-row"><div class="cp-c1">99453</div><div class="cp-c2">Initial Setup &amp; Enrollment</div><div class="cp-c3">$22.29</div><div class="cp-c4">$24.31</div><div class="cp-c5">$0.00</div></div><div class="cp-row"><div class="cp-c1">99445</div><div class="cp-c2">Device Readings 2 to 15 days</div><div class="cp-c3">&middot;</div><div class="cp-c4">$59.06</div><div class="cp-c5">$29.50</div></div><div class="cp-row"><div class="cp-c1">99454</div><div class="cp-c2">Device Readings 16+ days</div><div class="cp-c3">$49.24</div><div class="cp-c4">$59.06</div><div class="cp-c5">$29.50</div></div><div class="cp-row"><div class="cp-c1">99470</div><div class="cp-c2">Initial Care Mgmt 10 to 20 min</div><div class="cp-c3">&middot;</div><div class="cp-c4">$27.83</div><div class="cp-c5">$16.70</div></div><div class="cp-row"><div class="cp-c1">99457</div><div class="cp-c2">Initial Care Mgmt 20 min</div><div class="cp-c3">$47.84</div><div class="cp-c4">$55.33</div><div class="cp-c5">$32.00</div></div><div class="cp-row"><div class="cp-c1">99458</div><div class="cp-c2">Additional Care (40 to 60 min)</div><div class="cp-c3">$38.46</div><div class="cp-c4">$43.55</div><div class="cp-c5">$24.50</div></div></div></div>
+<div class="cp-prog"><div class="cp-prog-h"><div class="cp-prog-code">RPM</div><div class="cp-prog-name">Remote Patient Monitoring</div></div><div class="cp-table"><div class="cp-row cp-head"><div class="cp-c1">CPT</div><div class="cp-c2">Description</div><div class="cp-c3">2025</div><div class="cp-c4">2026</div></div><div class="cp-row"><div class="cp-c1">99453</div><div class="cp-c2">Initial Setup &amp; Enrollment</div><div class="cp-c3">$22.29</div><div class="cp-c4">$24.31</div></div><div class="cp-row"><div class="cp-c1">99445</div><div class="cp-c2">Device Readings 2 to 15 days</div><div class="cp-c3">&middot;</div><div class="cp-c4">$59.06</div></div><div class="cp-row"><div class="cp-c1">99454</div><div class="cp-c2">Device Readings 16+ days</div><div class="cp-c3">$49.24</div><div class="cp-c4">$59.06</div></div><div class="cp-row"><div class="cp-c1">99470</div><div class="cp-c2">Initial Care Mgmt 10 to 20 min</div><div class="cp-c3">&middot;</div><div class="cp-c4">$27.83</div></div><div class="cp-row"><div class="cp-c1">99457</div><div class="cp-c2">Initial Care Mgmt 20 min</div><div class="cp-c3">$47.84</div><div class="cp-c4">$55.33</div></div><div class="cp-row"><div class="cp-c1">99458</div><div class="cp-c2">Additional Care (40 to 60 min)</div><div class="cp-c3">$38.46</div><div class="cp-c4">$43.55</div></div></div></div>
 
-<div class="cp-prog"><div class="cp-prog-h"><div class="cp-prog-code">CCM</div><div class="cp-prog-name">Chronic Care Management</div></div><div class="cp-table"><div class="cp-row cp-head"><div class="cp-c1">CPT</div><div class="cp-c2">Description</div><div class="cp-c3">2025</div><div class="cp-c4">2026</div><div class="cp-c5">CADE</div></div><div class="cp-row"><div class="cp-c1">99490</div><div class="cp-c2">Initial 20 Minutes</div><div class="cp-c3">$63.54</div><div class="cp-c4">$69.31</div><div class="cp-c5">$38.00</div></div><div class="cp-row"><div class="cp-c1">99439</div><div class="cp-c2">Additional Care (max 2 add'l)</div><div class="cp-c3">$48.64</div><div class="cp-c4">$53.21</div><div class="cp-c5">$29.00</div></div></div></div>
+<div class="cp-prog"><div class="cp-prog-h"><div class="cp-prog-code">CCM</div><div class="cp-prog-name">Chronic Care Management</div></div><div class="cp-table"><div class="cp-row cp-head"><div class="cp-c1">CPT</div><div class="cp-c2">Description</div><div class="cp-c3">2025</div><div class="cp-c4">2026</div></div><div class="cp-row"><div class="cp-c1">99490</div><div class="cp-c2">Initial 20 Minutes</div><div class="cp-c3">$63.54</div><div class="cp-c4">$69.31</div></div><div class="cp-row"><div class="cp-c1">99439</div><div class="cp-c2">Additional Care (max 2 add'l)</div><div class="cp-c3">$48.64</div><div class="cp-c4">$53.21</div></div></div></div>
 
-<div class="cp-prog"><div class="cp-prog-h"><div class="cp-prog-code">RTM</div><div class="cp-prog-name">Remote Therapeutic Monitoring</div></div><div class="cp-table"><div class="cp-row cp-head"><div class="cp-c1">CPT</div><div class="cp-c2">Description</div><div class="cp-c3">2025</div><div class="cp-c4">2026</div><div class="cp-c5">CADE</div></div><div class="cp-row"><div class="cp-c1">98975</div><div class="cp-c2">Initial Setup &amp; Enrollment</div><div class="cp-c3">$22.29</div><div class="cp-c4">$24.31</div><div class="cp-c5">$0.00</div></div><div class="cp-row"><div class="cp-c1">98976</div><div class="cp-c2">Supply Device, respiratory</div><div class="cp-c3">$49.24</div><div class="cp-c4">$59.06</div><div class="cp-c5">$29.50</div></div><div class="cp-row"><div class="cp-c1">98977</div><div class="cp-c2">Supply Device, musculoskeletal</div><div class="cp-c3">$49.24</div><div class="cp-c4">$58.30</div><div class="cp-c5">$29.50</div></div><div class="cp-row"><div class="cp-c1">98980</div><div class="cp-c2">Treatment Mgmt, first 20 min</div><div class="cp-c3">$53.86</div><div class="cp-c4">$58.13</div><div class="cp-c5">$32.50</div></div><div class="cp-row"><div class="cp-c1">98981</div><div class="cp-c2">Additional 20 min</div><div class="cp-c3">$41.27</div><div class="cp-c4">$43.74</div><div class="cp-c5">$25.00</div></div></div></div>
+<div class="cp-prog"><div class="cp-prog-h"><div class="cp-prog-code">RTM</div><div class="cp-prog-name">Remote Therapeutic Monitoring</div></div><div class="cp-table"><div class="cp-row cp-head"><div class="cp-c1">CPT</div><div class="cp-c2">Description</div><div class="cp-c3">2025</div><div class="cp-c4">2026</div></div><div class="cp-row"><div class="cp-c1">98975</div><div class="cp-c2">Initial Setup &amp; Enrollment</div><div class="cp-c3">$22.29</div><div class="cp-c4">$24.31</div></div><div class="cp-row"><div class="cp-c1">98976</div><div class="cp-c2">Supply Device, respiratory</div><div class="cp-c3">$49.24</div><div class="cp-c4">$59.06</div></div><div class="cp-row"><div class="cp-c1">98977</div><div class="cp-c2">Supply Device, musculoskeletal</div><div class="cp-c3">$49.24</div><div class="cp-c4">$58.30</div></div><div class="cp-row"><div class="cp-c1">98980</div><div class="cp-c2">Treatment Mgmt, first 20 min</div><div class="cp-c3">$53.86</div><div class="cp-c4">$58.13</div></div><div class="cp-row"><div class="cp-c1">98981</div><div class="cp-c2">Additional 20 min</div><div class="cp-c3">$41.27</div><div class="cp-c4">$43.74</div></div></div></div>
 
-<div class="cp-prog"><div class="cp-prog-h"><div class="cp-prog-code">PCM</div><div class="cp-prog-name">Principal Care Management</div></div><div class="cp-table"><div class="cp-row cp-head"><div class="cp-c1">CPT</div><div class="cp-c2">Description</div><div class="cp-c3">2025</div><div class="cp-c4">2026</div><div class="cp-c5">CADE</div></div><div class="cp-row"><div class="cp-c1">99426</div><div class="cp-c2">PCM, clinical staff directed</div><div class="cp-c3">$65.03</div><div class="cp-c4">$71.21</div><div class="cp-c5">$38.50</div></div><div class="cp-row"><div class="cp-c1">99427</div><div class="cp-c2">Each additional 30 min, staff</div><div class="cp-c3">$53.80</div><div class="cp-c4">$57.34</div><div class="cp-c5">$32.00</div></div></div></div>
+<div class="cp-prog"><div class="cp-prog-h"><div class="cp-prog-code">PCM</div><div class="cp-prog-name">Principal Care Management</div></div><div class="cp-table"><div class="cp-row cp-head"><div class="cp-c1">CPT</div><div class="cp-c2">Description</div><div class="cp-c3">2025</div><div class="cp-c4">2026</div></div><div class="cp-row"><div class="cp-c1">99426</div><div class="cp-c2">PCM, clinical staff directed</div><div class="cp-c3">$65.03</div><div class="cp-c4">$71.21</div></div><div class="cp-row"><div class="cp-c1">99427</div><div class="cp-c2">Each additional 30 min, staff</div><div class="cp-c3">$53.80</div><div class="cp-c4">$57.34</div></div></div></div>
 
-<div class="cp-prog"><div class="cp-prog-h"><div class="cp-prog-code">BHM</div><div class="cp-prog-name">Behavioral Health Management</div></div><div class="cp-table"><div class="cp-row cp-head"><div class="cp-c1">CPT</div><div class="cp-c2">Description</div><div class="cp-c3">2025</div><div class="cp-c4">2026</div><div class="cp-c5">CADE</div></div><div class="cp-row"><div class="cp-c1">99484</div><div class="cp-c2">General Services, 20 min</div><div class="cp-c3">$55.82</div><div class="cp-c4">$59.95</div><div class="cp-c5">$36.00</div></div></div></div>
+<div class="cp-prog"><div class="cp-prog-h"><div class="cp-prog-code">BHM</div><div class="cp-prog-name">Behavioral Health Management</div></div><div class="cp-table"><div class="cp-row cp-head"><div class="cp-c1">CPT</div><div class="cp-c2">Description</div><div class="cp-c3">2025</div><div class="cp-c4">2026</div></div><div class="cp-row"><div class="cp-c1">99484</div><div class="cp-c2">General Services, 20 min</div><div class="cp-c3">$55.82</div><div class="cp-c4">$59.95</div></div></div></div>
 
 </div></div>
 
-<div class="r" data-d="0.5"><div class="cp-foot">CADE fees are flat per code. 2025 and 2026 figures use Medicare national-average allowables; a dash means the code is new for 2026. Actual reimbursement varies by region, payer, and patient time.</div></div>
+<div class="r" data-d="0.5"><div class="cp-foot">2025 and 2026 figures use Medicare national-average allowables; a dot means the code is new for 2026. Actual reimbursement varies by region, payer, and patient time. Your CADE rep will walk through program pricing with you.</div></div>
 
 </div></section>
 
